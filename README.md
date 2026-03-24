@@ -1,7 +1,6 @@
-# sephora-product-analysis
+# Sephora Product Analysis
 End-to-end data analytics project on Sephora's product catalog using Python, PostgreSQL, and data visualization.
 
-# Sephora Product Analysis
 
 An end-to-end data analytics project analyzing Sephora's product catalog to uncover insights on brand performance, product ratings, customer reviews, pricing, and skin concern trends.
 
@@ -66,11 +65,3 @@ Created 5 charts using Matplotlib and Seaborn to visually present findings.
 - **Format:** CSV
 
 ---
-
-## Files in this Repository
-
-| File | Description |
-|------|-------------|
-| `Sephora.ipynb` | Main Jupyter Notebook with full analysis |
-| `product_info.csv` | Raw dataset from Kaggle |
-| `README.md` | Project documentation |
