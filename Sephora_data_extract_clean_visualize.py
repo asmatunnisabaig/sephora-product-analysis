@@ -77,6 +77,7 @@ plt.title('Number of Products by Primary Category', fontsize=16)
 plt.xlabel('Product Count')
 plt.ylabel('Category')
 plt.tight_layout()
+plt.savefig('chart1_products_by_category.png')
 plt.show()
 
 
@@ -90,6 +91,7 @@ plt.title('Top 5 Brands with Most Products', fontsize=16)
 plt.xlabel('Number of Products')
 plt.ylabel('Brand')
 plt.tight_layout()
+plt.savefig('chart2_top5_brands.png')
 plt.show()
 
 
@@ -102,6 +104,7 @@ plt.title('Top 10 Products with Most Reviews', fontsize=16)
 plt.xlabel('Number of Reviews')
 plt.ylabel('Product')
 plt.tight_layout()
+plt.savefig('chart3_most_reviewed.png')
 plt.show()
 
 
@@ -117,6 +120,7 @@ plt.xlabel('Average Rating')
 plt.ylabel('Brand')
 plt.xlim(0, 5)
 plt.tight_layout()
+plt.savefig('chart4_top_rated_brands.png')
 plt.show()
 
 
@@ -147,6 +151,7 @@ plt.figure(figsize=(10, 8))
 plt.pie(concern_counts.values, labels=concern_counts.index, autopct='%1.1f%%', colors=sns.color_palette('pastel'))
 plt.title('Products by Skin Concern', fontsize=16)
 plt.tight_layout()
+plt.savefig('chart5_skin_concern.png')
 plt.show()
 
 
